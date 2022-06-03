@@ -1,0 +1,28 @@
+import React from 'react'
+
+const Sociales = () => {
+  return (
+    <>
+
+                <h2 className='text-center'>Compartimos este día juntos</h2>
+                <p className='text-center pb-2'>Comparte tus fotos y videos de ese hermoso día, utiliza el</p>
+
+                <h4 className='text-center pb-3' style={{fontSize:"1.8rem", color:"#05331B"}}>#camuyfabri</h4>
+                <div className='d-flex text-center justify-content-evenly'>
+                <div className='d-flex justify-content-center'>
+                
+                    <a className='text-white text-decoration-none' target="_blank" href="https://www.instagram.com/"><img
+                    
+                    src="../../images/instagram.png"
+                    alt=""
+                    style={{ height: "100px" }}
+                /></a>
+                    </div>
+                    
+                </div>
+          
+</>
+  )
+}
+
+export default Sociales
