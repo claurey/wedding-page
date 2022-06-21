@@ -19,7 +19,7 @@ import Sociales from './components/Sociales'
 const App = () => {
   return (
     <>
-      <Navbar/>
+      {/* <Navbar/> */}
       <Banner/>
       <section  id="padrinos"  className='d-flex p-5 flex-column'>
       <Hr/>
@@ -44,7 +44,7 @@ const App = () => {
       </section>
       <HrSecond/>
 
-      <section className='d-flex p-5 flex-column'>
+      <section id="collage" className='d-flex p-5 flex-column'>
       <Hr/>
         <Collage/>
       </section>
@@ -54,7 +54,7 @@ const App = () => {
       </section>
 
 
-      <section>
+      <section id="redes">
             <div className='d-flex flex-wrap justify-content-space'>
                 <div className='social__container' >
                 </div>
@@ -72,7 +72,7 @@ const App = () => {
         <Asistencia/>
       </section>
       <div className='hr__second' style={{height:'200px'}} >
-            <h2 className='text-light text-center pt-5'>¡Esperamos que puedas acompañarnos!</h2>
+            <h2 className='text-light text-center pt-5' >¡Esperamos que puedas acompañarnos!</h2>
             <div className='text-white fs-4 text-center' >
             _______________ <SvgIcon component={SpaIcon}/> _______________</div>
 

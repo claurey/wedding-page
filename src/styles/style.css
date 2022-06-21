@@ -8,7 +8,11 @@ font-family: 'Style Script', cursive;
 font-family: 'The Nautigal', cursive; 400 y 700
 font-family: 'Updock', cursive;*/
 
-
+#padrinos, #lugar, #vestimenta, #collage, #redes{
+  background-image: url('./../assets/papel.png');
+  background-size: 400px 200px;
+  background-repeat: repeat;
+}
 .header_navbar{
     font-family:'Cookie', cursive;
     font-size: 2.5rem;
@@ -23,26 +27,37 @@ font-family: 'Updock', cursive;*/
 }
 
 .banner__container{
-    background-image: url('./../assets/portada.jpeg');
+    background-image: url('./../assets/portada01.jpeg');
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: #8C2C23;
     height: 100vh;
     width: 100vw;
     
 }
+/*font-family: 'Beau Rivage', cursive;
+font-family: 'Cookie', cursive;
+font-family: 'Cormorant Garamond', serif; 300, 400, 500 700
+font-family: 'Grand Hotel', cursive;
+font-family: 'Rochester', cursive;
+font-family: 'Rouge Script', cursive;
+font-family: 'Style Script', cursive;
+font-family: 'The Nautigal', cursive; 400 y 700
+font-family: 'Updock', cursive;*/
 
 .header_h1{
     font-family: 
     /* 'Updock', cursive; */
-    'Rochester', cursive;
+    /* 'Rochester', cursive; */
 
-    /* 'Style Script', cursive; */
-    /* 'Rouge Script', cursive; */
-    /* 'Cookie', cursive; */
+    'Rouge Script', cursive;
+    
     font-size: 7rem;
 
     color: white;
     text-align: center;
+
 }
 
 .header_h1-span{
@@ -64,18 +79,31 @@ font-family: 'Updock', cursive;*/
 }
 
 h2{
-    font-family: 'Cookie', cursive;
-    font-size: 3rem;
+    /* font-family: 'Cookie', cursive; */
+    font-family: 'Stalemate', cursive;
+    font-weight: 500;
+    font-size: 4rem;
     padding-bottom: 1.5rem;
     color:#8C2C23;
 
 }
 
+/*f
+
+font-family: 'Cormorant Garamond', serif; 300, 400, 500 700
+
+font-family: 'Rochester', cursive;
+font-family: 'Rouge Script', cursive;
+
+
+font-family: 'Updock', cursive;*/
+
 h3{
-    font-family: 'Cormorant Garamond', serif; 
+
+  font-family: 'Cormorant Garamond', serif;
     font-size: 1.5rem;
-    font-weight: 700;
-    color:#591F12;
+    font-weight: 100;
+    color:#915832;
 
 }
 
@@ -104,10 +132,10 @@ font-family: 'Updock', cursive;*/
 }
 
 p{
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 1.3rem;
-    font-weight: 500;
-    color:#05331B;
+  font-family: 'Outfit', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 200;
+    color:#24312bb3;
 }
 
 .p--center{
@@ -117,6 +145,7 @@ p{
 .social__container{
   background-image: url('./../assets/portada.jpeg');
   background-size: cover;
+  background-position: center;
    background-repeat: no-repeat;
     height: 500px;
     width: 800px;
@@ -127,7 +156,7 @@ p{
 .wrapper {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 500px 400px 300px;
+    grid-template-columns: 400px 400px 400px;
     grid-template-rows: 500px 400px;
     background-color: #fff;
     color: #444;
@@ -143,7 +172,7 @@ p{
   .a {
     grid-column: 1 / 3;
     grid-row: 1;
-    background-image: url('./../assets/foto01.jpg');
+    background-image: url('./../assets/image00002.jpeg');
     background-size: cover;
     background-position: center;
 
@@ -151,21 +180,21 @@ p{
   .b {
     grid-column: 3 ;
     grid-row: 1 / 3;
-    background-image: url('./../assets/foto02.jpg');
+    background-image: url('./../assets/image00007.jpeg');
     background-size: cover;
     background-position: center;
   }
   .c {
     grid-column: 1 ;
     grid-row: 2 ;
-    background-image: url('./../assets/foto03.jpg');
+    background-image: url('./../assets/image00005.jpeg');
     background-size: cover;
     background-position: center;
   }
   .d {
     grid-column: 2;
     grid-row: 2;
-    background-image: url('./../assets/foto04.jpg');
+    background-image: url('./../assets/image00003.jpeg');
     background-size: cover;
     background-position: center;
   }

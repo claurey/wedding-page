@@ -34,6 +34,9 @@ const FechaLugar = () => {
         <button style={{padding:"10px", color:"white", width:'150px',border:"none", borderRadius: "40px", background:" #915832", boxShadow: "inset 5px 5px 10px #a7653a,inset -5px -5px 10px #a7653a"}}>
         <a className='text-white text-decoration-none' target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&tmeid=N2pxbjdubzNtaXI4dXEzM2FwaTAxNGhxZTcgcmV5bmFoLmNsYXVkaWFlQG0&tmsrc=reynah.claudiae%40gmail.com">Agendar <SvgIcon component={TodayRoundedIcon} fontSize='medium'/></a></button>
         </div>
+        <div className='text-center pt-3'>
+        <p>- NO NIÑOS -</p>
+        </div>
         
     </>
   )
