@@ -29,6 +29,9 @@ const App = () => {
       <Hr/>
         <Testigos/>
       </section>
+      <div className='backgroundFixed'>
+ 
+      </div> 
       <HrSecond/>
       <section id='lugar' className='d-flex p-5 flex-column'>
       <Hr/>
@@ -42,6 +45,7 @@ const App = () => {
       <Hr/>
         <Vestimenta/>
       </section>
+      
       <HrSecond/>
 
       <section id="collage" className='d-flex p-5 flex-column'>
@@ -71,6 +75,9 @@ const App = () => {
       <Hr/>
         <Asistencia/>
       </section>
+      <div className='backgroundFixed01'>
+
+      </div>
       <div className='hr__second' style={{height:'200px'}} >
             <h2 className='text-light text-center pt-5' >¡Esperamos que puedas acompañarnos!</h2>
             <div className='text-white fs-4 text-center' >

@@ -10,7 +10,7 @@ const Asistencia = () => {
 
     <div className='d-flex justify-content-center p-4 '>
     <img
-         class="animate__animated animate__bounce animate__slower animate__infinite	infinite"
+         className="animate__animated animate__bounce animate__slower animate__infinite	infinite"
          src="../../images/list.png"
          alt=""
          style={{ height: "180px" }}

@@ -11,7 +11,7 @@ const Vestimenta = () => {
         className="d-flex text-center justify-content-center flex-wrap"
         style={{ gap: "50px" }}
       >
-        <div className="d-flex flex-column justify-content-center align-items-center" >
+        <div className="d-flex flex-column justify-content-center align-items-center pb-5" >
         <div>
         <p >Vestido largo / Traje</p>
         <p className="pb-4"><small>Evitar usar colores blancos o similares</small>
@@ -24,7 +24,7 @@ const Vestimenta = () => {
             className="text-center"
             src="../../images/paleta.png"
             alt="paleta"
-            style={{ height: "40px" , width:"150px"}}
+            style={{  width:"250px"}}
           />
           
         </div>
