@@ -20,7 +20,12 @@ const App = () => {
   return (
     <>
       {/* <Navbar/> */}
+      
       <Banner/>
+      <section  id="main" className='d-flex p-5 flex-column text-center'>
+      
+      </section>
+     
       <section  id="padrinos"  className='d-flex p-5 flex-column'>
       <Hr/>
         <Padrinos/>
@@ -78,8 +83,8 @@ const App = () => {
       <div className='backgroundFixed01'>
 
       </div>
-      <div className='hr__second' style={{height:'200px'}} >
-            <h2 className='text-light text-center pt-5' >¡Esperamos que puedas acompañarnos!</h2>
+      <div className='hr__second text_ending ' style={{height:'200px'}} >
+            <h2 className='text-light text-center pt-5' >¡Gracias por compartir este día con nosotros!</h2>
             <div className='text-white fs-4 text-center' >
             _______________ <SvgIcon component={SpaIcon}/> _______________</div>
 

@@ -12,7 +12,7 @@ const FechaLugar = () => {
         <p className='text-center header__date'>08 . 12 . 2022</p>
         
         <div className='d-flex text-center justify-content-center flex-wrap' style={{gap:'50px'}}>
-            <div className='d-flex flex-column justify-content-center '>
+            <div className='image_container d-flex flex-column justify-content-center '>
                   <img className='p-4' src="../../images/mansion.jpg" alt="" style={{width:'500px'}}/>
                   <img className='p-4' src="../../images/mansion01.jpeg" alt="" style={{width:'500px'}}/>
             </div>

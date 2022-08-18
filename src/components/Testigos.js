@@ -13,7 +13,9 @@ const Testigos = () => {
             </div>
             <div className='card__testigos'>
                  <p className='text-center p--center p-1 pb-4'>
-                 "Fabricio y yo, hemos estudiado en la misma universidad, nos hemos acompañado en los buenos y en los malos momentos, alentándonos mutuamente cuando algo no salía bien, amigos así no se encuentran con facilidad.<br/>Hoy puedo decir con mucha satisfacción que hemos logrado parte de nuestros sueños. En tu caso, amigo mío, eres ya un gran médico y tu futuro profesional es más que prometedor. Todo lo maravilloso de tu vida, ahora se complementará de manera perfecta al unir y compartir tus sueños con Camu ( moshiii 😊). Les deseo toda la felicidad del mundo, siempre seré tu hermano."
+                 "Fabricio, los buenos amigos como tu no se encuentran con facilidad,  nos hemos acompañado en las buenas y alentándo mutuamente cuando algo no salía bien desde la universidad, por eso siempre serás mi hermano.
+Hoy puedo decir con mucha satisfacción que hemos logrado parte de nuestros sueños. En tu caso, amigo mío, eres ya un gran médico y tu futuro profesional es más que prometedor. Todo lo maravilloso de tu vida, ahora se complementará de manera perfecta al unir y compartir tus sueños con Camu. 
+Les deseo toda la felicidad del mundo."
                  </p>
                 <h3>
                 Franz Zevallos Zúñiga 

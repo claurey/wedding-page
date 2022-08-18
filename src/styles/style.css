@@ -19,6 +19,31 @@ font-family: 'Updock', cursive;*/
 
 }
 
+#main{
+  background-image: url('./../assets/phrase.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 840px;
+}
+
+@media (max-width: 1440px) {
+  #main {
+    height: 400px;
+  }
+}
+@media (max-width: 768px) {
+  #main {
+    height: 200px;
+  }
+}
+
+@media (max-width: 425px) {
+  #main {
+    height: 100px;
+  }
+}
+
 .navbar__container{
     background-color: #591F12;
     filter: opacity(0.8);
@@ -92,6 +117,27 @@ font-family: 'Updock', cursive;*/
     /* 'Style Script', cursive; */
 }
 
+@media (max-width: 690px) {
+  .header_h1 {
+    font-size: 4rem;
+    /* color: #05331B; */
+  }
+
+
+  .arrow{
+    display: none;
+  }
+}
+
+
+@media (max-width: 370px) {
+  .header_h1 {
+    font-size: 4rem;
+    /* color: #05331B; */
+  }
+
+}
+
 .hr__second{
     /* background-color: #915832; */
     background-color: #843c34;;
@@ -108,6 +154,68 @@ h2{
     padding-bottom: 1.5rem;
     color:#8C2C23;
 
+}
+
+@media (max-width: 1024px) {
+  .container_p{
+    padding: 10px !important;
+  }
+
+  .container_h3{
+    padding: 2px !important;
+    /* font-size: 14px; */
+  }
+
+  .container_h3 h3{
+    padding: 2px !important;
+    /* font-size: 14px; */
+  }
+  
+}
+
+@media (max-width: 540px) {
+
+  .image_container img{
+    width: 300px !important;
+  }
+
+  iframe{
+    width: 300px !important;
+  }
+
+
+  .itinerario_container img{
+    height: 300px !important;
+    text-align: center;
+  }
+
+  .hr__second div {
+    display: none;
+  }
+
+  .text_ending h2{
+    font-size: 40px;
+  }
+ 
+  .text_ending div{
+    display: none;
+  }
+}
+
+
+
+@media (max-width: 425px) {
+
+  .container_h3{
+    padding: 2px !important;
+    font-size: 16px;
+  }
+
+  .container_h3 h3{
+    padding: 2px !important;
+    font-size: 16px;
+  }
+  
 }
 
 /*f
@@ -308,6 +416,18 @@ p{
     font-size: 20px;
     font-weight: 600;
   }
+
+  @media (max-width: 370px) {
+    .smalltext {
+      font-size: 1rem;
+    }
+
+    #clockdiv div > span{
+      padding: 5px;
+    }
+  
+  }
+  
 
 
   .card__testigos p{

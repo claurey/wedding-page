@@ -12,7 +12,7 @@ const Banner = () => {
             <div className='text-white'>
                 <h1 className='header_h1'>Camu <span className='header_h1-span'>&</span> Fabri</h1>
             </div>
-            <div className='text-white p-3 fs-4'>_________________ <SvgIcon component={SpaIcon}/> _________________</div>
+            <div className='text-white arrow p-3 fs-4'>_________________ <SvgIcon component={SpaIcon}/> _________________</div>
             <div className='pb-5'>
          
                 <Conteo/>
