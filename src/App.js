@@ -80,9 +80,9 @@ const App = () => {
       <Hr/>
         <Asistencia/>
       </section>
-      <div className='backgroundFixed01'>
+      {/* <div className='backgroundFixed01'>
 
-      </div>
+      </div> */}
       <div className='hr__second text_ending ' style={{height:'200px'}} >
             <h2 className='text-light text-center pt-5' >¡Gracias por compartir este día con nosotros!</h2>
             <div className='text-white fs-4 text-center' >

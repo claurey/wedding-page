@@ -5,22 +5,22 @@ import SvgIcon from '@mui/material/SvgIcon';
 const Asistencia = () => {
   return (
     <>
-    <h2 className='text-center'>Confirma tu asistencia</h2>
-    <p className='text-center pb-2'>Te pedimos confirmar tu asistencia, ingresando al siguiente link.</p>
+    <h2 className='text-center'>Dónde hospedarte?</h2>
+    <p className='text-center pb-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo tenetur laborum saepe perspiciatis praesentium labore enim maxime rerum laudantium voluptates, quidem aliquam, libero voluptatum sint quis ducimus! Tempore, consequatur laudantium..</p>
 
-    <div className='d-flex justify-content-center p-4 '>
+    {/* <div className='d-flex justify-content-center p-4 '>
     <img
          className="animate__animated animate__bounce animate__slower animate__infinite	infinite"
          src="../../images/list.png"
          alt=""
          style={{ height: "180px" }}
        />
-    </div>
+    </div> */}
     <div className='d-flex text-center justify-content-evenly'>
-    <div className='d-flex justify-content-center'>
+    {/* <div className='d-flex justify-content-center'>
         <button style={{padding:"10px", color:"white", width:'100px',border:"none", borderRadius: "40px", background:" #915832", boxShadow: "inset 5px 5px 10px #a7653a,inset -5px -5px 10px #a7653a"}}>
         <a className='text-white text-decoration-none' target="_blank" href="#">Ir a</a></button>
-        </div>
+        </div> */}
          
     </div>
 

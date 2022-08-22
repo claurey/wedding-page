@@ -35,7 +35,10 @@ const FechaLugar = () => {
         <a className='text-white text-decoration-none' target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&tmeid=N2pxbjdubzNtaXI4dXEzM2FwaTAxNGhxZTcgcmV5bmFoLmNsYXVkaWFlQG0&tmsrc=reynah.claudiae%40gmail.com">Agendar <SvgIcon component={TodayRoundedIcon} fontSize='medium'/></a></button>
         </div>
         <div className='text-center pt-3'>
-        <p>- NO NIÑOS -</p>
+        <div className='d-flex noni'>
+
+        <img src="../../images/nokids.png" alt="" width={40} height={40} /><p className='nokids'> NO NIÑOS  </p>
+        </div>
         </div>
         
     </>
