@@ -5,100 +5,71 @@ import SvgIcon from '@mui/material/SvgIcon';
 const Asistencia = () => {
   return (
     <>
-    <h2 className='text-center'>Dónde hospedarte?</h2>
-    <p className='text-center pb-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo tenetur laborum saepe perspiciatis praesentium labore enim maxime rerum laudantium voluptates, quidem aliquam, libero voluptatum sint quis ducimus! Tempore, consequatur laudantium..</p>
+    <h2 className='text-center'>Qué hacer en Arequipa?</h2>
 
-    {/* <div className='d-flex justify-content-center p-4 '>
-    <img
-         className="animate__animated animate__bounce animate__slower animate__infinite	infinite"
-         src="../../images/list.png"
-         alt=""
-         style={{ height: "180px" }}
-       />
-    </div> */}
-    <div className='d-flex text-center justify-content-evenly'>
-    {/* <div className='d-flex justify-content-center'>
-        <button style={{padding:"10px", color:"white", width:'100px',border:"none", borderRadius: "40px", background:" #915832", boxShadow: "inset 5px 5px 10px #a7653a,inset -5px -5px 10px #a7653a"}}>
-        <a className='text-white text-decoration-none' target="_blank" href="#">Ir a</a></button>
-        </div> */}
-         
+
+    <div className='misti mb-5'>
+
+</div>
+    <div className='hotel px-4 mb-5'>
+    <h3 className="mb-5 text-center">Dónde hospedarse?</h3>
+    <ul className='hoteles'>
+      <li>
+      <p><h5>Los Andes</h5> </p>
+      <p>Teléfono: +51 54 330015</p> 
+      <p>Dirección: La Merced 123, Arequipa</p> 
+     </li>
+     <li>
+      <p><h5>Vita Hotel</h5> </p>
+      <p>Celular: 959356546</p> 
+      <p>Dirección: Calle Zela 305, Arequipa</p> 
+     </li>
+     <li>
+      <p><h5>Mirador del Monasterio</h5> </p>
+      <p>Teléfono: 054 225122</p> 
+      <p>Dirección: Calle Zela 301, Arequipa</p> 
+     </li>
+  
+    </ul>
+   
+ 
     </div>
 
-    {/* <div className='d-flex text-center justify-content-evenly p-4'> */}
 
- 
-    {/* <div className="container d-flex justify-content-center">
-
-        <div className="col-md-6 ">
-        
-          <form className="needs-validation" novalidate autocomplete="off">
-            <div className="row">
-              <div className="col-md-6 mb-3">
-                <label for="firstName">Nombres</label>
-                <input type="text" className="form-control" id="firstName"  required/>
+    <div className='donde text-center px-4'>
+    <div >
+    <h3 className="mb-3 text-center">Cómo trasladarse?</h3>
+    <ul className='hoteles '>
+      <li>
+      <p><h5>Taxitel</h5> </p>
+      <p>Teléfono: 054 452020</p> 
+     </li>
   
-              </div>
-              <div className="col-md-6 mb-3">
-                <label for="lastName">Apellidos</label>
-                <input type="text" className="form-control" id="lastName"  required/>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-md-8 mb-3">
-                <label for="email">Email</label>
-                <input type="email" className="form-control" id="email" />
-  
-              </div>
-              <div className="col-md-4 mb-3">
-                <label for="phone">Celular</label>
-                <input type="text" className="form-control" id="phone" />
-              </div>
-            </div>
-
-            <div className="row">
-              <div className="col-md-8 mb-3">
-              <label for="address">Dirección</label>
-              <input type="text" className="form-control" id="address"/>
-  
-              </div>
-              <div className="col-md-4 mb-3">
-                <label for="phone">Ciudad de residencia</label>
-                <input type="text" className="form-control" id="phone" />
-              </div>
-            </div>
-
-            <hr className="mb-4"/>
-           
-
-            <h3 className="mb-3">¿Podrás asistir?</h3>
-
-            <div className="d-block my-3 ">
-              <div className="custom-control custom-radio ">
-                <input id="si" name="answer" type="radio" className="custom-control-input mx-3" checked required/>
-                <label className="custom-control-label" for="si">¡Claro, ahí nos vemos!</label>
-              </div>
-              <div className="custom-control custom-radio">
-                <input id="no" name="answer" type="radio" className="custom-control-input mx-3" required/>
-                <label className="custom-control-label" for="no">No podré, lo siento</label>
-              </div>
-            <div className='text-start py-4'><SvgIcon component={DoNotDisturbRoundedIcon} fontSize='small'/> No niños</div>
-            </div> 
-            
-            <hr className="mb-4"/>
-            <button style={{padding:"10px", color:"white", width:'150px',border:"none", borderRadius: "40px", background:" #915832", boxShadow: "inset 5px 5px 10px #a7653a,inset -5px -5px 10px #a7653a"}}>
-        Enviar</button>
-        
-
-
-          </form>
-        </div>
+    </ul>
    
+    </div>
+
+  
 
 
-    </div> */}
+    <div >
+    <h3 className="mb-3">Quieres conocer Arequipa?</h3>
+    <ul className='hoteles'>
+      <li>
+      <p><h5>Tour Maravillas Peruanas Travels EIRL</h5> </p>
+      <p>Celular: 958536146 / 964109665</p> 
+     </li>
+  
+    </ul>
+   
+ 
+    </div>
+
+    </div>
+
     
-         
-    {/* </div> */}
+ 
+
 </>
   )
 }

@@ -30,7 +30,12 @@ const App = () => {
       <Hr/>
         <Padrinos/>
       </section>
-      <section  id="testigos" className='d-flex p-5 flex-column' style={{backgroundColor: "#f9f7f5"}} >
+      
+      <section id='lugar' className='d-flex p-5 flex-column' style={{backgroundColor: "#f9f7f5"}}>
+      <Hr/>
+        <FechaLugar/>
+      </section>
+      <section  id="testigos" className='d-flex p-5 flex-column'  >
       <Hr/>
         <Testigos/>
       </section>
@@ -38,10 +43,7 @@ const App = () => {
  
       </div> 
       <HrSecond/>
-      <section id='lugar' className='d-flex p-5 flex-column'>
-      <Hr/>
-        <FechaLugar/>
-      </section>
+     
       <section  id="itinerario" className='d-flex p-5 flex-column' style={{backgroundColor: "#f9f7f5"}} >
       <Hr/>
         <Itinerario/>
@@ -50,19 +52,22 @@ const App = () => {
       <Hr/>
         <Vestimenta/>
       </section>
-      
+      <section id="regalo"  className='d-flex p-5 flex-column ' style={{backgroundColor: "#f9f7f5"}}>
+      <Hr/>
+        <MesaRegalos/>
+      </section>
       <HrSecond/>
 
       <section id="collage" className='d-flex p-5 flex-column'>
       <Hr/>
         <Collage/>
       </section>
-      <section id="regalo"  className='d-flex p-5 flex-column ' style={{backgroundColor: "#f9f7f5"}}>
+     
+
+      <section id="asistencia" className='d-flex p-5 flex-column' style={{backgroundColor: "#f9f7f5"}}>
       <Hr/>
-        <MesaRegalos/>
+        <Asistencia/>
       </section>
-
-
       <section id="redes">
             <div className='d-flex flex-wrap justify-content-space'>
                 <div className='social__container' >
@@ -76,10 +81,7 @@ const App = () => {
       </section>
 
 
-      <section id="asistencia" className='d-flex p-5 flex-column' style={{backgroundColor: "#f9f7f5"}}>
-      <Hr/>
-        <Asistencia/>
-      </section>
+      
       {/* <div className='backgroundFixed01'>
 
       </div> */}

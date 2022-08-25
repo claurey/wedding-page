@@ -8,7 +8,7 @@ font-family: 'Style Script', cursive;
 font-family: 'The Nautigal', cursive; 400 y 700
 font-family: 'Updock', cursive;*/
 
-#padrinos, #lugar, #vestimenta, #collage, #redes{
+#padrinos, #testigos, #vestimenta, #collage, #redes{
   background-image: url('./../assets/papel.png');
   background-size: 400px 200px;
   background-repeat: repeat;
@@ -16,6 +16,7 @@ font-family: 'Updock', cursive;*/
 .header_navbar{
     font-family:'Cookie', cursive;
     font-size: 2.5rem;
+    color: #9158327e;
 
 }
 
@@ -64,7 +65,7 @@ font-family: 'Updock', cursive;*/
 }
 
 .banner__container{
-    background-image: url('./../assets/portada01.jpeg');
+    background-image: url('./../assets/portada.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -113,7 +114,7 @@ font-family: 'Updock', cursive;*/
     'Rouge Script', cursive;
     
     font-size: 7rem;
-
+    /* color: #8C2C23; */
     color: white;
     text-align: center;
 
@@ -285,7 +286,7 @@ p{
 }
 
 .social__container{
-  background-image: url('./../assets/portada.jpeg');
+  background-image: url('./../assets/image00006.jpeg');
   background-size: cover;
   background-position: center;
    background-repeat: no-repeat;
@@ -318,6 +319,61 @@ p{
     }
   }
 
+  .misti{
+    background-image: url('./../assets/volcan.jpeg');
+    height: 250px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    width: 100%;
+  }
+
+.hoteles{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  
+}
+
+@media (max-width: 600px) {
+  .hoteles {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .hoteles li {
+
+    padding: 10px;
+  }
+
+  .hoteles h5{
+    font-size: 20px;
+  }
+}
+
+
+
+
+
+.donde{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 1300px) {
+ 
+  .donde {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+}
 
   .box {
     background-color: #444;
@@ -416,7 +472,7 @@ p{
   #clockdiv div > span{
     padding: 15px;
     border-radius: 3px;
-    background: #8C2C23;
+    background: #91583263;
     /* background-color: #591F12; */
     /* filter: opacity(0.8); */
     display: inline-block;
@@ -427,6 +483,7 @@ p{
     padding-top: 5px;
     font-size: 20px;
     font-weight: 600;
+    color:  #915832af;
   }
 
   @media (max-width: 370px) {
@@ -450,10 +507,10 @@ p{
     flex-basis: 500px;
     padding: 20px;
     border-radius: 0px;
-background-image: url("../assets/papel.png");
+background-color: #f9f7f5;
 background-size: contain;
-box-shadow:  5px 0px 16px #d5d8d898,
-             -5px -0px 16px #ffffff14;
+box-shadow:  5px 0px 16px #d5d8d85a,
+             -5px -0px 16px #ffffff0c;
     
   }
 

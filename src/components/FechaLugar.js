@@ -37,7 +37,7 @@ const FechaLugar = () => {
         <div className='text-center pt-3'>
         <div className='d-flex noni'>
 
-        <img src="../../images/nokids.png" alt="" width={40} height={40} /><p className='nokids'> NO NIÑOS  </p>
+      <p className='nokids'> - NO NIÑOS -  </p>
         </div>
         </div>
         
