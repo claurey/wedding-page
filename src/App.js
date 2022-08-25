@@ -56,18 +56,13 @@ const App = () => {
       <Hr/>
         <MesaRegalos/>
       </section>
-      <HrSecond/>
+      
 
       <section id="collage" className='d-flex p-5 flex-column'>
       <Hr/>
         <Collage/>
       </section>
-     
-
-      <section id="asistencia" className='d-flex p-5 flex-column' style={{backgroundColor: "#f9f7f5"}}>
-      <Hr/>
-        <Asistencia/>
-      </section>
+      <HrSecond/>
       <section id="redes">
             <div className='d-flex flex-wrap justify-content-space'>
                 <div className='social__container' >
@@ -79,6 +74,11 @@ const App = () => {
                       </div>
                   </div>
       </section>
+      <section id="asistencia" className='d-flex p-5 flex-column' style={{backgroundColor: "#f9f7f5"}}>
+      <Hr/>
+        <Asistencia/>
+      </section>
+   
 
 
       

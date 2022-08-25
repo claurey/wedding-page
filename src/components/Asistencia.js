@@ -5,14 +5,14 @@ import SvgIcon from '@mui/material/SvgIcon';
 const Asistencia = () => {
   return (
     <>
-    <h2 className='text-center'>Qué hacer en Arequipa?</h2>
+    <h2 className='text-center'>Ciudad Blanca</h2>
 
 
     <div className='misti mb-5'>
 
 </div>
     <div className='hotel px-4 mb-5'>
-    <h3 className="mb-5 text-center">Dónde hospedarse?</h3>
+    <h3 className="mb-5 text-center">Dónde podrías hospedarte?</h3>
     <ul className='hoteles'>
       <li>
       <p><h5>Los Andes</h5> </p>
@@ -38,7 +38,7 @@ const Asistencia = () => {
 
     <div className='donde text-center px-4'>
     <div >
-    <h3 className="mb-3 text-center">Cómo trasladarse?</h3>
+    <h3 className="mb-3 text-center">Taxitel podría ayudar a trasladarte</h3>
     <ul className='hoteles '>
       <li>
       <p><h5>Taxitel</h5> </p>
@@ -53,7 +53,7 @@ const Asistencia = () => {
 
 
     <div >
-    <h3 className="mb-3">Quieres conocer Arequipa?</h3>
+    <h3 className="mb-3">Si quieres conocer más de esta linda ciudad …</h3>
     <ul className='hoteles'>
       <li>
       <p><h5>Tour Maravillas Peruanas Travels EIRL</h5> </p>
