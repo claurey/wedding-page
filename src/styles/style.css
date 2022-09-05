@@ -8,6 +8,12 @@ font-family: 'Style Script', cursive;
 font-family: 'The Nautigal', cursive; 400 y 700
 font-family: 'Updock', cursive;*/
 
+@font-face {
+  font-family: "Palmaton";
+  src: url("../fuentes/Palmaton.ttf");
+}
+
+
 #padrinos, #testigos, #vestimenta, #collage, #redes{
   background-image: url('./../assets/papel.png');
   background-size: 400px 200px;
@@ -161,7 +167,7 @@ font-family: 'Updock', cursive;*/
 
 h2{
     /* font-family: 'Cookie', cursive; */
-    font-family: 'Stalemate', cursive;
+    font-family: 'Palmaton', cursive;
     font-weight: 500;
     font-size: 4rem;
     padding-bottom: 1.5rem;
