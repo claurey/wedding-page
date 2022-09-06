@@ -18,7 +18,7 @@ const MesaRegalos = () => {
     </div>
     <div className='d-flex text-center justify-content-evenly'>
     <div className='d-flex justify-content-center'>
-        <button style={{padding:"10px", color:"white", width:'100px',border:"none", borderRadius: "40px", background:" #91652f", boxShadow: "inset 5px 5px 10px #91652f,inset -5px -5px 10px #91652f"}}>
+        <button style={{padding:"10px", color:"white", width:'100px',border:"none", borderRadius: "40px", background:"  #91652f", boxShadow: "inset 5px 5px 10px  #91652f,inset -5px -5px 10px #91652f"}}>
         <a className='text-white text-decoration-none' target="_blank" href="https://sinenvolturas.pe/bodadecamufabri">Ir a</a></button>
         </div>
           
