@@ -9,8 +9,8 @@ const Banner = () => {
   return (
     <div id="banner" className='text-center banner__container d-flex flex-column justify-content-end align-items-center '>
 
-            <div className='text-white'>
-                <h1 className='header_h1'>Camu <span className='header_h1-span'>&</span> Fabri</h1>
+            <div className='text-white '>
+                <h1 className='header_h1 '>Camu <span className='header_h1-span'>&</span> Fabri</h1>
             </div>
             <div className='text-white arrow p-3 fs-4'>_________________ <SvgIcon component={SpaIcon}/> _________________</div>
             <div className='pb-4 mt-4'>

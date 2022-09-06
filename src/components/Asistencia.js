@@ -38,14 +38,14 @@ const Asistencia = () => {
 
     <div className='donde text-center px-4'>
     <div >
-    <h3 className="mb-3 text-center">Taxitel podría ayudar a trasladarte</h3>
-    <ul className='hoteles '>
+    <h3 className="mb-3 text-center">Para movilizarte...</h3>
+    <div className='hoteles '>
       <li>
       <p><h5>Taxitel</h5> </p>
       <p>Teléfono: 054 452020</p> 
      </li>
   
-    </ul>
+    </div>
    
     </div>
 

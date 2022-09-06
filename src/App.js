@@ -19,29 +19,33 @@ import Sociales from './components/Sociales'
 const App = () => {
   return (
     <>
-      {/* <Navbar/> */}
-      
+    
       <Banner/>
-      <section  id="main" className='d-flex p-5 flex-column text-center'>
+       <section  id="main" className='d-flex p-5 flex-column text-center'>
       
       </section>
-     
+    
       <section  id="padrinos"  className='d-flex p-5 flex-column'>
       <Hr/>
         <Padrinos/>
-      </section>
+      </section> 
       
       <section id='lugar' className='d-flex p-5 flex-column' style={{backgroundColor: "#f9f7f5"}}>
       <Hr/>
         <FechaLugar/>
       </section>
+      
       <section  id="testigos" className='d-flex p-5 flex-column'  >
+     
+
       <Hr/>
         <Testigos/>
       </section>
-      <div className='backgroundFixed'>
+      
+        <div className='backgroundFixed'>
  
       </div> 
+        
       <HrSecond/>
      
       <section  id="itinerario" className='d-flex p-5 flex-column' style={{backgroundColor: "#f9f7f5"}} >
@@ -79,12 +83,6 @@ const App = () => {
         <Asistencia/>
       </section>
    
-
-
-      
-      {/* <div className='backgroundFixed01'>
-
-      </div> */}
       <div className='hr__second text_ending ' style={{height:'200px'}} >
             <h2 className='text-light text-center pt-5' >¡Gracias por compartir este día con nosotros!</h2>
             <div className='text-white fs-4 text-center' >
