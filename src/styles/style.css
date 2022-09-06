@@ -347,10 +347,16 @@ font-family: 'Work Sans', sans-serif;
 
 
 .hoteles h5{
-  font-family: 'Work Sans', sans-serif; 
+  font-family: 'Quattrocento', serif;
+  font-size: 16px;
+  text-transform: uppercase;
       color:#d4af83;
 }
 
+
+.hoteles p{
+  font-family: 'Zen Maru Gothic', sans-serif;
+}
 @media (max-width: 600px) {
   .hoteles {
     flex-direction: column;
