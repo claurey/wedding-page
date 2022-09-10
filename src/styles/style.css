@@ -96,12 +96,12 @@ h2{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 840px;
+  height: 850px;
 }
 
 @media (max-width: 1440px) {
   #main {
-    height: 465px;
+    height: 485px;
   }
 }
 @media (max-width: 768px) {
@@ -125,6 +125,7 @@ h2{
 
 .nokids{
   font-weight: 700;
+  font-size: 20px;
   margin-top: 10px;
   margin-bottom: 0;
   font-family: 'Quattrocento', serif;
@@ -555,10 +556,12 @@ font-family: 'Quattrocento', serif;
     padding: 20px;
     border-radius: 2px;
     border: 1px solid #d2b49a;
-/* background-color: #f9f7f5; */
+/* background-color: #fff; */
+/* background: url(../assets/papel.png); */
 background-size: contain;
-box-shadow:  5px 0px 10px #d5d8d85a,
-             -5px -0px 10px #ffffff0c;
+background-repeat: repeat;
+/* box-shadow:  5px 0px 10px #d5d8d85a,
+             -5px -0px 10px #ffffff0c; */
               }
 
 

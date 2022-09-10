@@ -20,16 +20,16 @@ const Asistencia = () => {
     <ul className='hoteles'>
       <li>
       <p className="text-center"><h5>Los Andes</h5> </p>
-      <p>Teléfono: +51 54 330015 <br />Dirección: La Merced 123, Arequipa</p> 
+      <p className="text-center">Teléfono: +51 54 330015 <br />Dirección: La Merced Nº 123</p> 
      
      </li>
      <li>
      <p className="text-center"><h5>Vita Hotel</h5> </p>
-      <p>Celular: 959356546 <br />Dirección: Calle Zela 305, Arequipa</p> 
+      <p className="text-center">Celular: 959356546 <br />Dirección: Calle Zela Nº 305</p> 
      </li>
      <li>
      <p className="text-center"><h5>Mirador del Monasterio</h5> </p>
-      <p>Teléfono: 054 225122 <br />Dirección: Calle Zela 301, Arequipa</p> 
+      <p className="text-center">Teléfono: 054 225122 <br />Dirección: Calle Zela Nº 301</p> 
       
      </li>
   
