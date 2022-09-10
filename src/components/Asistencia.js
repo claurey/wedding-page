@@ -14,7 +14,7 @@ const Asistencia = () => {
     <div className='hotel px-4 mb-5'>
     <h3 className="mb-5 text-center">Dónde podrías hospedarte?</h3>
     <div className="text-center mb-5">
-    <i className="fa-sharp fa-solid fa-hotel fa-3x" style={{color:'#915832'}}></i>
+    <i className="fa-sharp fa-solid fa-hotel fa-3x" style={{color:'#bd9045'}}></i>
     </div>
     
     <ul className='hoteles'>
@@ -43,7 +43,7 @@ const Asistencia = () => {
     <div className='mb-5'>
     <h3 className="mb-4 text-center">Para movilizarte...</h3>
     <div className="text-center mb-4">
-    <i className="fa-sharp fa-solid fa-car fa-3x" style={{color:'#915832'}}></i>
+    <i className="fa-sharp fa-solid fa-car fa-3x" style={{color:'#bd9045'}}></i>
     </div>
     <div className='hoteles '>
       <li>
@@ -61,7 +61,7 @@ const Asistencia = () => {
     <div  className='mb-5'>
     <h3 className="mb-4">Si quieres conocer más de esta linda ciudad …</h3>
     <div className="text-center mb-4">
-    <i className="fa-regular fa-map-location-dot fa-3x" style={{color:'#915832'}}></i>
+    <i className="fa-regular fa-map-location-dot fa-3x" style={{color:'#bd9045'}}></i>
 
  
 

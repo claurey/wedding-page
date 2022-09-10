@@ -1,12 +1,3 @@
-/*font-family: 'Beau Rivage', cursive;
-font-family: 'Cookie', cursive;
-font-family: 'Cormorant Garamond', serif; 300, 400, 500 700
-font-family: 'Grand Hotel', cursive;
-font-family: 'Rochester', cursive;
-font-family: 'Rouge Script', cursive;
-font-family: 'Style Script', cursive;
-font-family: 'The Nautigal', cursive; 400 y 700
-font-family: 'Updock', cursive;*/
 
 @font-face {
   font-family: "Palmaton";
@@ -14,8 +5,82 @@ font-family: 'Updock', cursive;*/
 }
 
 
+h3{
+
+  font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #d2b49a;
+
+}
+
+
+
+h2{
+  /* font-family: 'Cookie', cursive; */
+  font-family: 'Palmaton', cursive;
+  font-weight: 500;
+  font-size: 4rem;
+  padding-bottom: 1.5rem;
+  color:#d4af83;
+   
+}
+
+.hoteles h5{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  text-transform: uppercase;
+      color:#d4af83;
+}
+
+.nokid{
+  font-size: 16px;
+}
+
+
+.hoteles p{
+  font-size: 16px;
+}
+@media (max-width: 600px) {
+  .hoteles {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .hoteles li {
+
+    padding: 10px;
+  }
+
+  .hoteles h5{
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+      color:#d4af83;
+  }
+}
+
+
+.header__date{
+  font-family: 'Quattrocento', serif;
+    font-size: 2.8rem;
+    font-weight: 700;
+    /* color:#05331B; */
+    color: #bd9045;
+    margin-bottom: 40px;
+
+}
+
+
 #padrinos, #testigos, #vestimenta, #collage, #redes{
-  background-image: url('./../assets/papel.png');
+  background-image: url('./../assets/papel1.png');
+  background-size: 400px 200px;
+  background-repeat: repeat;
+}
+
+#lugar, #itinerario,#regalo,#asistencia{
+  background-image: url('./../assets/papel1.png');
   background-size: 400px 200px;
   background-repeat: repeat;
 }
@@ -157,22 +222,16 @@ font-family: 'Updock', cursive;*/
 }
 
 .hr__second{
-    /* background-color: #915832; */
-    background-color: #843c34;
-    /* background-color: #bb7556; */
-    /* filter: opacity(0.8); */
+    /* background-color: #843c34; */
+    /* background-color: #bd9045; */
+    /* background-color: #d2b49a; */
+    background-color:#d4af83;
     height: 100px;
 }
 
-h2{
-    /* font-family: 'Cookie', cursive; */
-    font-family: 'Palmaton', cursive;
-    font-weight: 500;
-    font-size: 4rem;
-    padding-bottom: 1.5rem;
-    color:#d4af83;
 
-}
+
+
 
 @media (max-width: 1024px) {
   .container_p{
@@ -246,14 +305,7 @@ font-family: 'Rouge Script', cursive;
 
 font-family: 'Updock', cursive;*/
 
-h3{
 
-  font-family: 'Cormorant Garamond', serif;
-    font-size: 1.5rem;
-    font-weight: 100;
-    color: #c2937f;
-
-}
 
 /*
 font-family: 'Cormorant Garamond', serif; 300, 400, 500 700
@@ -270,15 +322,7 @@ font-family: 'Updock', cursive;*/
 }
 
 
-.header__date{
-  font-family: 'Quattrocento', serif;
-    font-size: 2.8rem;
-    font-weight: 700;
-    /* color:#05331B; */
-    color: #c2937f;
-    margin-bottom: 40px;
 
-}
 
 p{
  
@@ -346,36 +390,7 @@ font-family: 'Work Sans', sans-serif;
 }
 
 
-.hoteles h5{
-  font-family: 'Quattrocento', serif;
-  font-size: 16px;
-  text-transform: uppercase;
-      color:#d4af83;
-}
 
-
-.hoteles p{
-  font-family: 'Zen Maru Gothic', sans-serif;
-}
-@media (max-width: 600px) {
-  .hoteles {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-  }
-
-  .hoteles li {
-
-    padding: 10px;
-  }
-
-  .hoteles h5{
-    font-size: 20px;
-      font-family: 'Work Sans', sans-serif; 
-      color:#d4af83;
-  }
-}
 
 
 
@@ -497,9 +512,8 @@ font-family: 'Quattrocento', serif;
   #clockdiv div > span{
     padding: 12px;
     border-radius: 3px;
-    background: #91583263;
-    /* background-color: #591F12; */
-    /* filter: opacity(0.8); */
+    /* background: #91583263; */
+    background: #d4af839a;
     display: inline-block;
   }
   
@@ -508,8 +522,16 @@ font-family: 'Quattrocento', serif;
     padding-top: 5px;
     font-size: 16px;
     font-weight: 600;
-    color:  #915832af;
+    color:#d4af83;
   }
+
+
+
+ 
+
+
+
+
 
   @media (max-width: 370px) {
     .smalltext {
@@ -532,13 +554,12 @@ font-family: 'Quattrocento', serif;
     flex-basis: 500px;
     padding: 20px;
     border-radius: 2px;
-    border: 1px solid #d4af83;
+    border: 1px solid #d2b49a;
 /* background-color: #f9f7f5; */
 background-size: contain;
 box-shadow:  5px 0px 10px #d5d8d85a,
              -5px -0px 10px #ffffff0c;
-    
-  }
+              }
 
 
 

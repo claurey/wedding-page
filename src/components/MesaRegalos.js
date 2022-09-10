@@ -10,15 +10,19 @@ const MesaRegalos = () => {
     <p className='text-center'>Queremos que nuestra luna de miel sea inolvidable, si tu deseo es hacernos un presente, puedes ingresar al siguiente link </p>
     <div className='d-flex justify-content-center p-4'>
     <img
-         className="animate__animated animate__bounce animate__slower animate__infinite	infinite"
-         src="../../images/regalo.png"
+         className="animate__animated animate__bounce animate__slower animate__infinite	infinite m-5"
+         src="../../images/regalo1.png"
          alt=""
-         style={{ height: "180px" }}
+         style={{ height: "100px" }}
        />
     </div>
-    <div className='d-flex text-center justify-content-evenly'>
+    <div className='d-flex text-center justify-content-evenly pb-5'>
     <div className='d-flex justify-content-center'>
-        <button style={{padding:"10px", color:"white", width:'100px',border:"none", borderRadius: "40px", background:"  #91652f", boxShadow: "inset 5px 5px 10px  #91652f,inset -5px -5px 10px #91652f"}}>
+        <button style={{padding:"10px", color:"white", width:'100px',border:"none", borderRadius: "40px", background:"#bd9045", boxShadow: "inset 5px 5px 10px #ab8037 ,inset -5px -5px 10px #bd9045"}}>
+
+      
+
+
         <a className='text-white text-decoration-none' target="_blank" href="https://sinenvolturas.pe/bodadecamufabri">Ir a</a></button>
         </div>
           
