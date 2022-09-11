@@ -18,7 +18,7 @@ import Sociales from './components/Sociales'
 
 const App = () => {
   return (
-    <>
+    <div className='all'>
     
       <Banner/>
        <section  id="main" className='d-flex p-5 flex-column text-center'>
@@ -30,7 +30,7 @@ const App = () => {
         <Padrinos/>
       </section> 
       
-      <section id='lugar' className='d-flex p-5 flex-column' style={{backgroundColor: "#f9f7f5"}}>
+      <section id='lugar' className='d-flex p-5 flex-column' >
       <Hr/>
         <FechaLugar/>
       </section>
@@ -48,7 +48,7 @@ const App = () => {
         
       <HrSecond/>
      
-      <section  id="itinerario" className='d-flex p-5 flex-column' style={{backgroundColor: "#f9f7f5"}} >
+      <section  id="itinerario" className='d-flex p-5 flex-column'  >
       <Hr/>
         <Itinerario/>
       </section>
@@ -56,7 +56,7 @@ const App = () => {
       <Hr/>
         <Vestimenta/>
       </section>
-      <section id="regalo"  className='d-flex p-5 flex-column ' style={{backgroundColor: "#f9f7f5"}}>
+      <section id="regalo"  className='d-flex p-5 flex-column ' >
       <Hr/>
         <MesaRegalos/>
       </section>
@@ -78,7 +78,7 @@ const App = () => {
                       </div>
                   </div>
       </section>
-      <section id="asistencia" className='d-flex p-5 flex-column' style={{backgroundColor: "#f9f7f5"}}>
+      <section id="asistencia" className='d-flex p-5 flex-column'>
       <Hr/>
         <Asistencia/>
       </section>
@@ -91,7 +91,7 @@ const App = () => {
    </div>
 
       
-    </>
+    </div>
   )
 }
 
