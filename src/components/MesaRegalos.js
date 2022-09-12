@@ -23,7 +23,7 @@ const MesaRegalos = () => {
       
 
 
-        <a className='text-white text-decoration-none' target="_blank" href="https://sinenvolturas.pe/bodadecamufabri">Ir a</a></button>
+        <a className='text-white text-decoration-none' target="_blank" href="https://sinenvolturas.pe/moshisday">Ir a</a></button>
         </div>
           
     </div>
