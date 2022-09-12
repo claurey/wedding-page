@@ -17,7 +17,7 @@ const FechaLugar = () => {
                   <img className='p-4' src="../../images/mansion01.jpeg" alt="" style={{width:'500px'}}/>
             </div>
             <div className='d-flex flex-column justify-content-center'>
-               <div className='pb-3 fs-4 text-center' style={{color:"#d2b49a"}}>
+               <div className='pb-3 fs-4 text-center' style={{color:"#bd9045"}}>
                 <SvgIcon component={ChurchRoundedIcon} fontSize='large'/> </div>
 
                 <h3 className='pb-2' style={{fontFamily:"'Quattrocento', cursive", color: "#bd9045" , fontSize:"24px"}}>La Mansión del Fundador</h3>
