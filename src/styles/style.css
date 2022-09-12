@@ -8,11 +8,11 @@
 h3{
 
   font-family: 'Cormorant Garamond', serif;
+  /* font-family: 'Ms Madi', cursive; */
     font-size: 1.6rem;
-    font-weight: 100;
-    /* color: #d2b49a; */
+    font-weight: 800;
     color: #bd9045;
-
+    /* font-style: italic; */
 }
 
 
@@ -20,10 +20,11 @@ h3{
 h2{
   /* font-family: 'Cookie', cursive; */
   font-family: 'Palmaton', cursive;
-  font-weight: 500;
+  font-weight: 00;
   font-size: 4rem;
   padding-bottom: 1.5rem;
-  color:#d4af83;
+  /* color:#d4af83; */
+  color: #bd9045;
    
 }
 
@@ -58,7 +59,7 @@ h2{
   .hoteles h5{
     font-size: 20px;
     font-family: 'Cormorant Garamond', serif;
-      color:#d4af83;
+    color:#d4af83;
   }
 }
 
@@ -80,15 +81,13 @@ h2{
 }
 
 #padrinos, #testigos, #vestimenta, #collage, #redes{
-  background-image: url('./../assets/marmol.png');
-  background-size:600px 580px;
+  background-image: url('./../assets/papel1.png');
   background-size:600px;
   background-repeat: repeat;
 }
 
 #lugar, #itinerario,#regalo,#asistencia{
-  background-image: url('./../assets/marmol.png');
-  background-size:600px 580px;
+  background-image: url('./../assets/papel1.png');
   background-size:600px;
   background-repeat: repeat;
 }
@@ -338,9 +337,10 @@ p{
   /* font-family: 'Lato', sans-serif; */
 /* font-family: 'Quattrocento', serif; */
 font-family: 'Work Sans', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 200;
-    color:#24312bb3;
+    /* color:#24312bb3; */
+    color: #bd9045;
 }
 
 .p--center{
