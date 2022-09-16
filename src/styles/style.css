@@ -145,7 +145,7 @@ h2{
   line-height: 2.5;
   font-weight: 100;
   color: #fff;
-  letter-spacing: 3px;
+  /* letter-spacing: 3px; */
   padding: 30px 90px;
   text-align: center;
   /* color: #454444; */
@@ -156,7 +156,7 @@ h2{
   /* background-color: #bd9045; */
   /* background-color: #d2b49a; */
   background-color:#d4af83;
-  height: 400px;
+  height: 420px;
 }
 
 
@@ -174,11 +174,22 @@ h2{
     line-height: 2.4;
   }
   .hr__tres{
-    height: 525px;
+    height: 455px;
   }
 }
 
 
+@media (max-width: 768px) {
+
+  .frasedos
+  {
+    padding: 20px !important;
+    font-size:20px ;
+  }
+  .hr__tres{
+    height: 355px;
+  }
+}
 
 @media (max-width: 425px) {
 
@@ -188,7 +199,7 @@ h2{
     font-size:20px ;
   }
   .hr__tres{
-    height: 465px;
+    height: 405px;
   }
 }
 
@@ -201,7 +212,7 @@ h2{
     font-size:20px ;
   }
   .hr__tres{
-    height: 495px;
+    height: 425px;
   }
 }
 
@@ -214,7 +225,7 @@ h2{
   }
 
   .hr__tres{
-    height: 545px;
+    height: 475px;
   }
 
 }
@@ -247,7 +258,7 @@ h2{
     font-size: 25px;
   }
   .ramitados{
-    top:250px;
+    top:200px;
   }
 }
 
@@ -255,17 +266,22 @@ h2{
   #main div
   {
     font-size: 28px;
-    line-height: 2.4;
+    line-height: 1.8;
   }
   .ramitados{
-    top:390px;
+    top:280px;
   }
 }
 
 @media (max-width: 768px) {
+  #main div
+  {
 
+    font-size:28px ;
+    line-height: 2.4;
+  }
   .ramitados{
-    top:590px;
+    top:450px;
   }
 }
 
@@ -276,10 +292,11 @@ h2{
   {
     padding: 0px !important;
     font-size:20px ;
+    line-height: 2.4;
   }
 
   .ramitados{
-    top:490px;
+    top:390px;
     width: 70px;
   }
   .ramitauno{
@@ -294,10 +311,11 @@ h2{
   {
     padding: 0px !important;
     font-size:20px ;
+    line-height: 2.4;
   }
 
   .ramitados{
-    top:540px;
+    top:390px;
     width: 70px;
   }
   .ramitauno{
@@ -311,10 +329,11 @@ h2{
   {
     padding: 0px !important;
     font-size:20px ;
+    line-height: 2;
   }
 
   .ramitados{
-    top:630px;
+    top:400px;
     width: 70px;
   }
   .ramitauno{
