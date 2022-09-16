@@ -49,11 +49,13 @@ const App = () => {
       <Hr/>
         <Testigos/>
       </section>
+
       
+
         <div className='backgroundFixed'>
  
-      </div> 
-        
+      </div>
+      {/* <div className='containerFixed'></div>  */}
       <HrSecond/>
      
       <section  id="itinerario" className='d-flex p-5 flex-column'  >
