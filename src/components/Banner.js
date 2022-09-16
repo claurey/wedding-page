@@ -10,7 +10,7 @@ const Banner = () => {
     <div id="banner" className='text-center banner__container d-flex flex-column justify-content-end align-items-center '>
 
             <div className='text-white bannertitulo'>
-                <h1 className='header_h1 pb-1'>Camu <span className='header_h1-span'>&</span> Fabri</h1>
+                <h1 className='header_h1 pb-3'>Camu <span className='header_h1-span'>&</span> Fabri</h1>
             </div>
             <div className='text-white arrow  fs-4'>_________________ <SvgIcon component={SpaIcon}/> _________________</div>
             <div className='pb-4 mt-1'>
