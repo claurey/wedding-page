@@ -382,9 +382,11 @@ h2{
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 100vh;
+  height: 1000px;
   
 }
+
+
 
 .backgroundFixed01{
   background-image: url('./../assets/image00002.jpeg');
