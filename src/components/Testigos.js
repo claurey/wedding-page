@@ -4,7 +4,7 @@ const Testigos = () => {
   return (
     <>
         <h2 className='text-center'>Testigos</h2>
-        <div className='d-flex text-center justify-content-evenly p-4 gap-5 flex-wrap'>
+        <div className='testigos-container d-flex text-center justify-content-evenly p-4 gap-5 flex-wrap'>
             <div className='card__testigos'>
                 <p className='p--center p-1 pb-4' style={{textAlign:"justify"}}>"Camu y yo somos amigas desde que tenemos 14 años, la he visto ser feliz, reír, crecer, alcanzar cada sueño; pero también la he visto caer para volver levantarse y empezar de nuevo. Siempre la he visto como una mujer tenaz,determinada y de un carácter imponente, y siempre dispuesta a brindar su mano y corazón cuando la necesitas. Camu no es solo mi amiga, si no que es mi hermana, mi ejemplo a seguir y muchas veces el “yo quiero ser así de grande“. Cuando Fabricio llegó a nuestras vidas ( por que también llegó a la mía), le puso la sal y el limón al shot de tequila, complementando maravillosamente a esta mujer que tengo la dicha de llamar amiga y tengo la seguridad que no solo la hace feliz si no que también están hechos el uno para el otro."</p>
                 <h3 style={{textAlign:"right", paddingRight:"10px"}}>

@@ -15,6 +15,7 @@ import SvgIcon from '@mui/material/SvgIcon';
 import SpaIcon from '@mui/icons-material/Spa';
 import 'animate.css';
 import Sociales from './components/Sociales'
+import OtraFrase from './components/OtraFrase'
 
 const App = () => {
   return (
@@ -22,7 +23,14 @@ const App = () => {
     
       <Banner/>
        <section  id="main" className='d-flex p-5 flex-column text-center'>
-      
+      <div className='frase p-5'>
+      <img src="../images/ramita1.png" alt="" className='ramitauno'  />
+      <img src="../images/ramita2.png" alt="" className='ramitados'  />
+      “El amor siempre protege, siempre confía, siempre ilusiona y nunca jamás se vence. 
+      <br /> El amor nunca falla. Dame la mano y danzaremos; dame la mano y me amarás. <br /> Como una sola flor seremos, como una flor y nada más.”
+<br /><br /><small>- Gabriela Mistral -</small>
+
+      </div>
       </section>
     
       <section  id="padrinos"  className='d-flex p-5 flex-column'>
@@ -64,21 +72,22 @@ const App = () => {
 
       <section id="collage" className='d-flex p-5 flex-column'>
       <Hr/>
+      
         <Collage/>
       </section>
-      <HrSecond/>
+      <OtraFrase/>
       <section id="redes">
-            <div className='d-flex flex-wrap justify-content-space'>
+            <div className='redes-container d-flex flex-wrap justify-content-space'>
                 <div className='social__container' >
                 </div>
-                <div className='d-flex flex-column p-5  justify-content-center' >
+                <div className='d-flex flex-column p-5 redes-img justify-content-center' >
                     
                 <Hr/>
                   <Sociales/>
                       </div>
                   </div>
       </section>
-      <section id="asistencia" className='d-flex p-5 flex-column'>
+       <section id="asistencia" className='d-flex p-5 flex-column'>
       <Hr/>
         <Asistencia/>
       </section>

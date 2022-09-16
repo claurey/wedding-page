@@ -6,7 +6,7 @@ const Padrinos = () => {
   return (
     <>
         <h2 className='text-center'>Padres</h2>
-        <div className=' d-flex text-center justify-content-evenly p-4'>
+        <div className='padrino-container d-flex text-center justify-content-evenly p-4'>
             <div className='container_h3'>
                 <h3>
                 Jesús Acuña Camacho<br/> <br/>Haida Gonzales Moscoso<br/>

@@ -21,7 +21,7 @@ const Vestimenta = () => {
           />
         <div>
         <p className="pt-4 mt-4">Vestido largo / Traje</p>
-        <p className="pb-4"><small>Evitar usar colores blancos o similares</small>
+        <p className="pb-4"><small>Evitar usar colores blanco  y/o negro</small>
         </p>
         </div>
         

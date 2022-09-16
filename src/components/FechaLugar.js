@@ -39,7 +39,7 @@ const FechaLugar = () => {
         <div className='d-flex noni'>
 
       <p className='nokids mt-2'> - NO NIÑOS -  </p>
-      <div className='p-5 pt-0'>
+      <div className='p-3 pt-0'>
       <p className='pt-4 p-5 nokid'>“Deseamos que todos disfruten al máximo de la fiesta de matrimonio y por eso decidimos que sea solo de adultos. Deseamos que esto no sea un obstáculo para contar con su presencia, puesto que es importante para nosotros”.</p>
       </div>
  

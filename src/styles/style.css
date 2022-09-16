@@ -5,6 +5,11 @@
 }
 
 
+@font-face {
+  font-family: "Amsterdam";
+  src: url("../fuentes/Amsterdam.ttf");
+}
+
 h3{
 
   font-family: 'Cormorant Garamond', serif;
@@ -28,6 +33,13 @@ h2{
    
 }
 
+@media (max-width: 425px) {
+  h2{
+
+    font-size: 3rem;
+  }
+}
+
 .hoteles h5{
   font-family: 'Cormorant Garamond', serif;
   font-size: 16px;
@@ -37,6 +49,22 @@ h2{
 
 .nokid{
   font-size: 16px;
+}
+
+@media (max-width: 1440px) {
+
+  .nokid{
+    padding: 0px 180px !important;
+  }
+  
+}
+
+@media (max-width: 425px) {
+
+  .nokid{
+    padding: 0px !important;
+  }
+  
 }
 
 
@@ -49,9 +77,10 @@ h2{
     justify-content: center;
     align-items: center;
 
+
   }
 
-  .hoteles li {
+  .hoteles div {
 
     padding: 10px;
   }
@@ -80,7 +109,7 @@ h2{
   background-repeat: repeat; */
 }
 
-#padrinos, #testigos, #vestimenta, #collage, #redes{
+#main,#padrinos, #testigos, #vestimenta, #collage, #redes{
   background-image: url('./../assets/papel1.png');
   background-size:600px;
   background-repeat: repeat;
@@ -98,30 +127,203 @@ h2{
 
 }
 
-#main{
-  background-image: url('./../assets/phrase.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 850px;
+#main div
+{
+  font-family: 'Amsterdam', cursive;
+  font-size: 27.5px;
+  line-height: 2.5;
+  font-weight: 100;
+  color: #858483;
+  letter-spacing: 3px;
+  /* color: #454444; */
 }
 
-@media (max-width: 1440px) {
-  #main {
-    height: 485px;
+.frasedos
+{
+  font-family: 'Amsterdam', cursive;
+  font-size: 27.5px;
+  line-height: 2.5;
+  font-weight: 100;
+  color: #fff;
+  letter-spacing: 3px;
+  padding: 30px 90px;
+  text-align: center;
+  /* color: #454444; */
+}
+
+.hr__tres{
+  /* background-color: #843c34; */
+  /* background-color: #bd9045; */
+  /* background-color: #d2b49a; */
+  background-color:#d4af83;
+  height: 400px;
+}
+
+
+@media (max-width: 1330px) {
+  .frasedos
+  {
+    font-size: 25px;
   }
 }
-@media (max-width: 768px) {
-  #main {
-    height: 200px;
+
+@media (max-width: 1024px) {
+  .frasedos
+  {
+    font-size: 28px;
+    line-height: 2.4;
+  }
+  .hr__tres{
+    height: 525px;
   }
 }
+
+
 
 @media (max-width: 425px) {
-  #main {
-    height: 100px;
+
+  .frasedos
+  {
+    padding: 20px !important;
+    font-size:20px ;
+  }
+  .hr__tres{
+    height: 465px;
   }
 }
+
+@media (max-width: 375px) {
+
+
+  .frasedos
+  {
+    padding: 20px !important;
+    font-size:20px ;
+  }
+  .hr__tres{
+    height: 495px;
+  }
+}
+
+@media (max-width: 320px) {
+
+  .frasedos
+  {
+    padding: 20px !important;
+    font-size:20px ;
+  }
+
+  .hr__tres{
+    height: 545px;
+  }
+
+}
+
+
+
+
+.frase{
+  position: relative;
+}
+
+.ramitauno{
+  width: 100px;
+  position: absolute;
+  top:-50px;
+  right:-50px;
+}
+
+.ramitados{
+  width: 100px;
+  position: absolute;
+  top:290px;
+  left:-45px;
+  transform: rotate(-50deg);
+}
+
+@media (max-width: 1330px) {
+  #main div
+  {
+    font-size: 25px;
+  }
+  .ramitados{
+    top:250px;
+  }
+}
+
+@media (max-width: 1024px) {
+  #main div
+  {
+    font-size: 28px;
+    line-height: 2.4;
+  }
+  .ramitados{
+    top:390px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .ramitados{
+    top:590px;
+  }
+}
+
+
+@media (max-width: 425px) {
+
+  #main div
+  {
+    padding: 0px !important;
+    font-size:20px ;
+  }
+
+  .ramitados{
+    top:490px;
+    width: 70px;
+  }
+  .ramitauno{
+    width: 70px;
+  }
+}
+
+@media (max-width: 375px) {
+
+
+  #main div
+  {
+    padding: 0px !important;
+    font-size:20px ;
+  }
+
+  .ramitados{
+    top:540px;
+    width: 70px;
+  }
+  .ramitauno{
+    width: 70px;
+  }
+}
+
+@media (max-width: 320px) {
+
+  #main div
+  {
+    padding: 0px !important;
+    font-size:20px ;
+  }
+
+  .ramitados{
+    top:630px;
+    width: 70px;
+  }
+  .ramitauno{
+    width: 70px;
+  }
+}
+
+
+
 
 
 .noni{
@@ -208,6 +410,8 @@ font-family: 'Updock', cursive;*/
     /* 'Style Script', cursive; */
 }
 
+
+
 @media (max-width: 690px) {
   .header_h1 {
     font-size: 4rem;
@@ -291,17 +495,31 @@ font-family: 'Updock', cursive;*/
 
 @media (max-width: 425px) {
 
+  .padrino-container{
+    padding: 0px!important;
+  }
+
   .container_h3{
-    padding: 2px !important;
+    padding: 0px !important;
+    margin-left: 0px !important;
     font-size: 16px;
   }
 
   .container_h3 h3{
-    padding: 2px !important;
+    padding: 10px !important;
     font-size: 16px;
   }
   
 }
+
+@media (max-width: 425px) {
+
+  #testigos h3{
+    font-size: 16px;
+  }
+  
+}
+
 
 /*f
 
@@ -357,6 +575,44 @@ font-family: 'Work Sans', sans-serif;
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
 /*CSS GRID*/
+@media (max-width: 1440px) {
+  .redes-img{
+    padding: 10px !important;
+  }
+  .social__container{
+  
+      height: 500px;
+      width: 700px;
+ }
+}
+@media (max-width: 1024px) {
+  .redes-img{
+    padding: 10px !important;
+  }
+  .social__container{
+  
+      height: 500px;
+      width: 400px;
+ }
+}
+
+@media (max-width: 768px) {
+  .redes-img{
+    padding: 10px !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .social__container{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 75% 100%, 0% 100%);
+
+      height: 500px;
+      width: 100%;
+ }
+
+ .redes-container{
+  justify-content: center !important;
+ }
+}
 
 .wrapper {
     display: grid;
@@ -397,7 +653,6 @@ font-family: 'Work Sans', sans-serif;
   justify-content: space-around;
   list-style-type: none;
 }
-
 
 
 
@@ -535,16 +790,10 @@ font-family: 'Quattrocento', serif;
   }
 
 
-
- 
-
-
-
-
-
-  @media (max-width: 370px) {
+  
+  @media (max-width: 1000px) {
     .smalltext {
-      font-size: 1rem;
+      font-size: 0.8rem;
     }
 
     #clockdiv div > span{
@@ -552,6 +801,27 @@ font-family: 'Quattrocento', serif;
     }
   
   }
+  
+ 
+  @media (max-width: 370px) {
+    .smalltext {
+      font-size: 0.6rem;
+    }
+
+    #clockdiv div > span{
+      padding: 6px;
+    }
+  
+    #clockdiv{
+      font-size: 14px;
+    }
+  }
+
+
+
+
+
+ 
   
 
 
@@ -573,4 +843,10 @@ background-repeat: repeat;
               }
 
 
+              @media (max-width: 425px) {
 
+                .testigos-container{
+                  padding:  0px !important;
+                }
+                
+              }

@@ -17,23 +17,23 @@ const Asistencia = () => {
     <i className="fa-sharp fa-solid fa-hotel fa-3x" style={{color:'#bd9045'}}></i>
     </div>
     
-    <ul className='hoteles'>
-      <li>
+    <div className='hoteles'>
+      <div>
       <p className="text-center"><h5>Los Andes</h5> </p>
       <p className="text-center">Teléfono: +51 54 330015 <br />Dirección: La Merced Nº 123</p> 
      
-     </li>
-     <li>
+     </div>
+     <div>
      <p className="text-center"><h5>Vita Hotel</h5> </p>
-      <p className="text-center">Celular: 959356546 <br />Dirección: Calle Zela Nº 305</p> 
-     </li>
-     <li>
+      <p className="text-center">Celdivar: 959356546 <br />Dirección: Calle Zela Nº 305</p> 
+     </div>
+     <div>
      <p className="text-center"><h5>Mirador del Monasterio</h5> </p>
       <p className="text-center">Teléfono: 054 225122 <br />Dirección: Calle Zela Nº 301</p> 
       
-     </li>
+     </div>
   
-    </ul>
+    </div>
    
  
     </div>

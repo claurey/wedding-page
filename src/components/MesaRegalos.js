@@ -7,7 +7,7 @@ const MesaRegalos = () => {
   return (
     <>
     <h2 className='text-center'>Mesa de Regalos</h2>
-    <p className='text-center'>Queremos que nuestra luna de miel sea inolvidable, si tu deseo es hacernos un presente, puedes ingresar al siguiente link </p>
+    <p className='text-center'>Queremos que nuestra luna de miel sea inolvidable, si tu deseo es hacernos llegar un obsequio,  puedes ingresar al siguiente link </p>
     <div className='d-flex justify-content-center p-4'>
     <img
          className="animate__animated animate__bounce animate__slower animate__infinite	infinite m-5"
