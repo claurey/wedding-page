@@ -78,7 +78,7 @@ const App = () => {
       <OtraFrase/>
       <section id="redes">
             <div className='redes-container d-flex flex-wrap justify-content-space'>
-                <div className='social__container' >
+                <div className='social__container ' >
                 </div>
                 <div className='d-flex flex-column p-5 redes-img justify-content-center' >
                     
