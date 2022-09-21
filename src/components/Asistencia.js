@@ -25,7 +25,7 @@ const Asistencia = () => {
      </div>
      <div>
      <p className="text-center"><h5>Vita Hotel</h5> </p>
-      <p className="text-center">Celdivar: 959356546 <br />Dirección: Calle Zela Nº 305</p> 
+      <p className="text-center">Teléfono: 959356546 <br />Dirección: Calle Zela Nº 305</p> 
      </div>
      <div>
      <p className="text-center"><h5>Mirador del Monasterio</h5> </p>

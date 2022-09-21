@@ -145,10 +145,8 @@ h2{
   line-height: 2.5;
   font-weight: 100;
   color: #fff;
-  /* letter-spacing: 3px; */
   padding: 30px 90px;
   text-align: center;
-  /* color: #454444; */
 }
 
 .hr__tres{
@@ -677,6 +675,23 @@ font-family: 'Work Sans', sans-serif;
     }
   }
 
+
+  .mesita{
+    /* background-color: red; */
+    height: 170px;
+  }
+
+  .mesita div{
+    width: 300px;
+  }
+
+
+  @media (max-width:425px) {
+    .mesita{
+      /* background-color: red; */
+      height: 270px;
+    }
+  }
   .misti{
     background-image: url('./../assets/volcan.jpeg');
     height: 250px;
