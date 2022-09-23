@@ -41,7 +41,7 @@ const MesaRegalos = () => {
                   "inset 5px 5px 10px #ab8037 ,inset -5px -5px 10px #bd9045",
               }}
           >
-            Ver datos bancarios
+            Datos bancarios
           </button>
 
 
@@ -79,7 +79,7 @@ const MesaRegalos = () => {
                 target="_blank"
                 href="https://sinenvolturas.pe/moshisday"
               >
-                Ir a mesa de regalos
+                Mesa de regalos
               </a>
             </button>
           </div>
