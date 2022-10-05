@@ -54,10 +54,10 @@ const MesaRegalos = () => {
 
             <i className="fa-solid fa-arrow-down" style={{color:'#bd9045'}}></i>
             <div className="card card-body" style={{ width: "18rem", border:"1px solid #bd9045" }}>
-              <h6 style={{color:'#bd9045'}}>Cuenta de Ahorro Soles Interbank</h6>
-              Número de cuenta: 1193113095961 
+              <h6 style={{color:'#bd9045'}}>Cuenta de Ahorro Soles Interbank</h6><strong>Número de cuenta:</strong>
+              1193113095961 
               <br />
-              CCI: 00311901311309596155
+              <strong>CCI:</strong>00311901311309596155
 
             </div>
           </div>
