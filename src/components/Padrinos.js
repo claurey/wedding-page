@@ -14,7 +14,7 @@ const Padrinos = () => {
             </div>
             <div className='container_h3'>
                 <h3>
-                Egdard Paredes Terán<br/> <br/>Lisbeth Poblete Cáceres<br/>
+                Edgard Paredes Terán<br/> <br/>Lisbeth Poblete Cáceres<br/>
                 </h3>
             </div>
             
